@@ -1,6 +1,23 @@
+Full Listing Basic
+ [x] Can be created with valid id and title
+ [x] Has basic status
+ [x] Has id
+ [x] Has title
+ [x] Has website
+ [x] Has email
+ [x] Has twitter
+ [x] Listing properties array contains all properties
+ [x] Change status to default value
+ [x] Clear website
+ [x] Change website and addition of http
+
+Full Listing Premium
+ [x] Has premium status
+ [x] Has description
+ [x] Listing contains correct allowed tags
+
 Listing Basic
  [x] Create basic listing must be with data
  [x] Create basic listing must be with valid id
  [x] Create basic listing must be with valid title
- [x] Can be created with valid id and title
 
