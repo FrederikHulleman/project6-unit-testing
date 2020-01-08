@@ -20,7 +20,7 @@
 
 #### 2. Unit test results details
 
-![Unit test results details](screenshots/details.png)
+![Unit test results details](screenshots/details.png =250x)
 
 #### 3. Code coverage ListingBasic class (including new image feature)
 
@@ -64,11 +64,11 @@ PHP | Unit testing | Test Driven Development | OOP | SQLite | PHPUnit | Xdebug |
 #### The most important folders & files within this project:
 
       .
-      ├── classes                     # contains the 3 classes which should be tested (and 3 other classes)
-      ├── css                         # contains css files (provided by Treehouse; not impacted by this project)
-      ├── fonts                       # contains font files (provided by Treehouse; not impacted by this project)
-      ├── inc                         # contains db, config, header & footer files (provided by Treehouse; not impacted by this project)
-      ├── tests                       # contains the test class files (delivered as part of this project)
-      │   └── log                     # contains the reporting files with the results of the unit tests and the code coverage
-      ├── views                       # contains php files used to display the listings list and form (provided by Treehouse; not impacted by this project)
-      └── root                        # The set up of the PHPUnit xml & composer files were part of this project. The PHP files were provided by Treehouse.
+      ├── classes      # contains the 3 classes which should be tested (and 3 other classes)
+      ├── css          # contains css files (provided by Treehouse; not impacted by this project)
+      ├── fonts        # contains font files (provided by Treehouse; not impacted by this project)
+      ├── inc          # contains db, config, header & footer files (provided by Treehouse; not impacted by this project)
+      ├── tests        # contains the test class files (delivered as part of this project)
+      │   └── log      # contains the reporting files with the results of the unit tests and the code coverage
+      ├── views        # contains php files used to display the listings list and form (provided by Treehouse; not impacted by this project)
+      └── root         # The set up of the PHPUnit xml & composer files were part of this project. The PHP files were provided by Treehouse.
