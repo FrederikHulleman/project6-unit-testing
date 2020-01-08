@@ -9,12 +9,12 @@ class FullListingBasicTest extends TestCase
 
   protected function setUp(): void
   {
-    $this->data['id'] = '11';
-    $this->data['title'] = 'Bulgaria PHP Conference';
-    $this->data['website'] = 'http://www.bgphp222.org';
-    $this->data['email'] = 'conference@bgphp.org';
-    $this->data['twitter'] = 'bgphpconf';
-    $this->data['status'] = 'basic';
+    $this->data = ['id' => '11',
+                'title' => 'Bulgaria PHP Conference',
+                'website' => 'http://www.bgphp222.org',
+                'email' => 'conference@bgphp.org',
+                'twitter' => 'bgphpconf',
+                'status' => 'basic'];
 
     $this->listing = new ListingBasic($this->data);
   }

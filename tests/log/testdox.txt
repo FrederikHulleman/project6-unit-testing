@@ -25,3 +25,8 @@ Listing Basic
  [x] Create basic listing must be with valid id
  [x] Create basic listing must be with valid title
 
+Listing Image
+ [x] No image
+ [x] Full path image
+ [x] Build path image
+

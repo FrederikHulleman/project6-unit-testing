@@ -146,6 +146,37 @@ class ListingBasic
     }
 
     /**
+     * Gets the local property $image
+     * @return string
+     */
+    public function getImage()
+    {
+        if (!empty($this->image)) {
+          return $this->image;
+        }
+        else {
+          return false;
+        }
+    }
+
+    /**
+     * Cleans up and sets the local property $image
+     * @param string $value to set property
+     */
+    public function setImage($value)
+    {
+      $value = trim(filter_var($value, FILTER_SANITIZE_STRING));
+      if (empty($value)) {
+          $this->image = null;
+          return;
+      }
+      if (substr($value, 0, 4) != 'http') {
+          $value = BASE_URL .  '/' . $value;
+      }
+      $this->image = $value;
+    }
+
+    /**
      * Gets the local property $status
      * @return string
      */

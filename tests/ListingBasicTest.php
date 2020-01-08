@@ -18,7 +18,7 @@ class ListingBasicTest extends TestCase
   {
     $this->expectExceptionMessage('Unable to create a listing, invalid id');
     //prepare data array with fake data, but without the id, to trigger this exception
-    $this->data['website'] = 'test';
+    $this->data = ['website' => 'test'];
     $listing = new ListingBasic($this->data);
   }
 
@@ -26,10 +26,10 @@ class ListingBasicTest extends TestCase
   {
     $this->expectExceptionMessage('Unable to create a listing, invalid title');
     //prepare data array with fake data, with an ID, but without a title, to trigger this exception
-    $this->data['id'] = 1;
+    $this->data = ['id' => '1'];
     $listing = new ListingBasic($this->data);
   }
 
-  
+
 
 }
