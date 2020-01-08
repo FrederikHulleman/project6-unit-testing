@@ -11,6 +11,10 @@ Full Listing Basic
  [x] Clear website
  [x] Change website and addition of http
 
+Full Listing Featured
+ [x] Has featured status
+ [x] Has coc
+
 Full Listing Premium
  [x] Has premium status
  [x] Has description

@@ -64,7 +64,6 @@ class FullListingBasicTest extends TestCase
   //Write a test for the ListingBasic class to ensure that the toArray method returns an array where each item equals the expected results: id, title, website, email, twitter.
   public function testListingPropertiesArrayContainsAllProperties()
   {
-    //$this->data['status'] = 'basic';
     $this->assertEquals($this->data,$this->listing->toArray());
   }
 
