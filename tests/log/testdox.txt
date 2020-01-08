@@ -1,0 +1,6 @@
+Listing Basic
+ [x] Create basic listing must be with data
+ [x] Create basic listing must be with valid id
+ [x] Create basic listing must be with valid title
+ [x] Can be created with valid id and title
+

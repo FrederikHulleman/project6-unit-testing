@@ -2,12 +2,13 @@
 session_start();
 define('BASE_URL', 'http://localhost:8000');
 
+require __DIR__ . '/../vendor/autoload.php';
 //include the user class, pass in the database connection
-include __DIR__ . '/../classes/Collection.php';
-include __DIR__ . '/../classes/ListingBasic.php';
-include __DIR__ . '/../classes/ListingPremium.php';
-include __DIR__ . '/../classes/ListingInactive.php';
-include __DIR__ . '/../classes/ListingFeatured.php';
+// include __DIR__ . '/../classes/Collection.php';
+// include __DIR__ . '/../classes/ListingBasic.php';
+// include __DIR__ . '/../classes/ListingPremium.php';
+// include __DIR__ . '/../classes/ListingInactive.php';
+// include __DIR__ . '/../classes/ListingFeatured.php';
 
 try {
     //create PDO connection
