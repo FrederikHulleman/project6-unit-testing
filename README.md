@@ -50,18 +50,17 @@ On MAMP for example: https://joshbuchea.com/mac-enable-xdebug-in-mamp/
 
 ## Tech used
 #### In this project the following main concepts, languages, frameworks, packages and other technologies are applied:
-PHP | OOP | SQLite | PHPUnit | Xdebug | phpunit-result-printer (codedungeon)
+PHP | Unit testing | OOP | SQLite | PHPUnit | Xdebug | phpunit-result-printer (codedungeon)
 
 ## Folder & file structure
 #### The most important folders & files within this project:
 
       .
-      ├── log                         # contains all log details  
-      │   └── app.log                 
-      ├── public                      # contains css files, images, htaccess and index.php files  
-      │   ├── css
-      │   └── img
-      ├── src                         # contains the database file & the primary Slim files  
-      │   ├── Classes                 # contains the Post, Comment & Tag class files, based on Eloquent ORM  
-      │   └── routes                  # contains the post, comment & tag route files  
-      └── templates                   # contains all twig templates
+      ├── classes                     # contains the 3 classes which should be tested
+      ├── css                         # contains css files (provided by Treehouse; not impacted by this project)
+      ├── fonts                       # contains font files (provided by Treehouse; not impacted by this project)
+      ├── inc                         # contains db, config, header & footer files (provided by Treehouse; not impacted by this project)
+      ├── tests                       # contains the test class files
+      │   └── log                     # contains the reporting files with the results of the unit tests and the code coverage
+      ├── views                       # contains php files used to display the listings list and form (provided by Treehouse; not impacted by this project)
+      └── root                        # The set up of the PHPUnit xml & composer files were part of this project. The PHP files were provided by Treehouse.
