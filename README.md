@@ -20,7 +20,7 @@
 
 #### 2. Unit test results details
 
-![Unit test results details](screenshots/details.png =250x)
+![Unit test results details](screenshots/details.png)
 
 #### 3. Code coverage ListingBasic class (including new image feature)
 
